@@ -1,0 +1,33 @@
+{
+  "author": "Milo Kenelm",
+  "bugs": {
+    "url": "https://github.com/bakedlime/toucan/issues"
+  },
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.5.2",
+    "apollo-server": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.5",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "homepage": "https://github.com/bakedlime/toucan#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "toucan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakedlime/toucan.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec \"tsc && node ./dist/index.js\" --watch ./src/*"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
